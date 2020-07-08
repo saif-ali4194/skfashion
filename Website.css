@@ -1,0 +1,494 @@
+/*navigation*/
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+#navi{
+  display:grid;
+   font-family:'San Francisco';
+   font-weight: 400;
+  margin:0;
+  padding:0;
+  grid-template-columns: 1fr;
+  background-color: #323232;
+  opacity: .96;
+  height: 2.7em;
+  width: 100%;
+  color: #cccccc;
+  text-align:center;
+  align-items:center;
+  position:fixed;
+  z-index: 1;
+}
+
+#navi ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+#navi li {
+  padding-right: 3em;
+  padding-left: 3em;
+  display:inline;
+}
+
+#navi li:hover {
+  color:  #ffffff;
+}
+
+/*navigation close*/
+
+/*Content*/
+.productgalleries{
+  margin-top: 20px;
+  
+}
+
+
+#accessories a{
+    position:relative;
+    top:0;
+     -webkit-transition-duration: .25s;
+}
+
+#accessories a:hover {
+   top:-20px; 
+   -webkit-transition-duration: .25s;  
+}
+#content{
+    display: block;
+    position: relative;
+}
+/*Content close*/
+
+table{
+    background-color: transparent;
+    color: transparent;
+    border-color: transparent;
+}
+
+
+
+
+
+
+/*Slideshow*/
+.carousel-inner img {
+  width: 100%; 
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+
+.padding{
+  padding-bottom: 2rem;
+}
+
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+.carousal-inner img{
+  width: 100%;
+  height: 100%;
+}
+.carousal-caption{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+.carousal-caption h1{
+ font-size: 500%;
+ text-transform: uppercase;
+text-shadow: 1px 1px 15px #000 ;
+
+}
+.carousal-caption h3{
+ font-size: 200%;
+  font-weight:500;
+ text-transform: uppercase;
+text-shadow: 1px 1px 10px #000 ;
+padding-bottom: 1rem;
+
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid :#f1f1f1;
+  background-color: #613563;
+  color: white;
+  transition: .2s;
+}
+.btn:hover, .btn:focus {
+  /*border: 1px solid:#f1f1f1;
+  background-color: transparent;
+  color: white;*/
+}
+/*Slideshow*/
+
+/*Welcome*/
+ .container #welcomeheader {
+    padding: 80px 120px;
+  }
+  #welcomeheader {
+ margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #111;
+}
+
+    
+    
+
+/*Welcome*/
+
+/*Footer*/
+#foot{
+  margin-top: 20px;
+}
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-left{
+    width: 34%;
+}
+.footer-links{
+    color:  #ffffff;
+    margin: 2px 0 12px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+ .footer-links
+{
+  padding-right:10px;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+     margin-top: 15px;
+}
+ 
+ .footer-center{
+    width: 55%;
+    margin-top: 60px;
+}
+ .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+ .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+.footer-right{
+    width: 20%;
+}
+.footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-icons{
+    margin-top: 25px;
+}
+ .footer-icons  a{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 20px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+   -webkit-transition:all .2s linear;
+   -o-transition:all .2s linear;
+    transition:all .2s linear
+}
+
+.footer-icons a:active, .footer-icons a:focus, .footer-icons a:hover
+{
+  color:#ffffff;
+  background-color:#29aafe;
+}
+.footer-icons a.facebook:hover
+{
+  background-color:#3b5998;
+  color:white;
+}
+.footer-icons a.twitter:hover
+{
+  background-color:#00aced;
+  color:white;
+}
+.footer-icons a.linkedin:hover
+{
+  background-color:#007bb6;
+  color:white;
+}
+.footer-icons a.dribbble:hover
+{
+  background-color:#ea4c89;
+  color:white;
+}
+
+@media (max-width: 880px) {
+ 
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    
+    }
+ 
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+ 
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+    .main {
+        line-height: normal;
+        font-size: auto;
+    }
+ 
+}
+#azfarista{
+    position: fixed;
+    margin-top: 70px;
+
+}
+#azfarista a:active,#azfarista a:focus,.#azfarista a:hover {
+    color:#3366cc;
+  text-decoration:none;
+}
+
+.inc{
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color:  #92999f;
+    font-weight: normal;
+    margin: 0;
+    text-decoration: underline;
+}
+span:hover {
+    color: #3366cc;
+    font-size: 105%;
+}
+#adjusticons{
+  
+    position: absolute;
+    z-index: 1;
+  
+  
+
+}
+
+.footer-distributed{
+    background-color: #292c2f;
+       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    width: 100%;
+    font: bold 16px sans-serif;
+}
+ .footer-distributed a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+ 
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+ 
+.footer-distributed h3 span{
+    color:  #5383d3;
+}
+ 
+ 
+.footer-distributed {
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+ .footer-links
+{
+  padding-right:10px;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-distributed .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+    width: 40%;
+}
+ .footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+ 
+ 
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+
+@media (max-width: 880px) {
+ 
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    
+    }
+ 
+     .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    #faqs{
+      margin-bottom: 10px;
+      display: none;
+    }
+   #icons{
+      margin-top: 20px;
+    }
+ footer{
+    position: fixed;
+    bottom: 0;
+    padding-top: 10px;
+}
+ 
+.footer-distributed .footer-icons a{
+  display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+ 
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+ 
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/*Footer close*/
+
